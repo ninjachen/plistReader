@@ -14,6 +14,8 @@
 		9F22787C1A3DDA78008E8B40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F22787B1A3DDA78008E8B40 /* Images.xcassets */; };
 		9F22787F1A3DDA78008E8B40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F22787D1A3DDA78008E8B40 /* LaunchScreen.xib */; };
 		9F22788B1A3DDA78008E8B40 /* plistReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F22788A1A3DDA78008E8B40 /* plistReaderTests.m */; };
+		9F2278951A3DDAAB008E8B40 /* areaNumber.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F2278941A3DDAAB008E8B40 /* areaNumber.plist */; };
+		9F2278971A3DDF34008E8B40 /* dummy.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F2278961A3DDF34008E8B40 /* dummy.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		9F2278841A3DDA78008E8B40 /* plistReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plistReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F2278891A3DDA78008E8B40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F22788A1A3DDA78008E8B40 /* plistReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = plistReaderTests.m; sourceTree = "<group>"; };
+		9F2278941A3DDAAB008E8B40 /* areaNumber.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = areaNumber.plist; sourceTree = "<group>"; };
+		9F2278961A3DDF34008E8B40 /* dummy.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dummy.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +100,10 @@
 		9F22786E1A3DDA77008E8B40 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9F2278941A3DDAAB008E8B40 /* areaNumber.plist */,
 				9F22786F1A3DDA77008E8B40 /* Info.plist */,
 				9F2278701A3DDA77008E8B40 /* main.m */,
+				9F2278961A3DDF34008E8B40 /* dummy.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -199,6 +205,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F2278951A3DDAAB008E8B40 /* areaNumber.plist in Resources */,
+				9F2278971A3DDF34008E8B40 /* dummy.plist in Resources */,
 				9F22787A1A3DDA77008E8B40 /* Main.storyboard in Resources */,
 				9F22787F1A3DDA78008E8B40 /* LaunchScreen.xib in Resources */,
 				9F22787C1A3DDA78008E8B40 /* Images.xcassets in Resources */,
